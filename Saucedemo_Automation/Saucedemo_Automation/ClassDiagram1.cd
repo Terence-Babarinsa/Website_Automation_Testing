@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Saucedemo_Automation.AP_CartPage">
+    <Position X="1.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAQBABAgAAAAAAQAAgAAMAAEAAAAAIAAA=</HashCode>
+      <FileName>lib\pages\AP_CartPage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Saucedemo_Automation.AP_ProductsPage">
+    <Position X="5.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAIAAAAAQBAAAAAEAAgCAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>lib\pages\AP_ProductsPage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Saucedemo_Automation.AP_SignInPages">
+    <Position X="3.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAwQAIAAAAAAhAAAAAAAAAgAAAAIABBCAIAAAAAAAA=</HashCode>
+      <FileName>lib\pages\AP_SignInPages.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Saucedemo_Automation.AppConfigReader">
+    <Position X="9" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAgAAAAAAAAAAg=</HashCode>
+      <FileName>AppConfigReader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Saucedemo_Automation.SeleniumDriverConfig">
+    <Position X="8.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAABAAAAAAAAAAAAABgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>lib\driver_config\SeleniumDriverConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Saucedemo_Automation.AP_Website">
+    <Position X="3.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAAAQAAAgAAAAAAAgAAAAA=</HashCode>
+      <FileName>lib\AP_Website.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="AP_CartPage" />
+      <Property Name="AP_SignInPage" />
+      <Property Name="AP_ProductsPage" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Saucedemo_Automation.BDD.CheckoutSteps">
+    <Position X="0.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAQAAAAAAAAAAAQAAAAAAAAQAIAAAAAAAgAAAIAAA=</HashCode>
+      <FileName>BDD\CheckoutSteps.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="AP_Website" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Saucedemo_Automation.BDD.LoginSteps">
+    <Position X="6.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAEAAAIAAAAAAAAAAAAAAAAIAEEACgAAAAAAA=</HashCode>
+      <FileName>BDD\LoginSteps.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="AP_Website" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Saucedemo_Automation.BDD.PorductsSteps">
+    <Position X="3.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAQAAAAAAAAAAASAAAAAAAAAAAAAAAACAgQAAAAAQ=</HashCode>
+      <FileName>BDD\PorductsSteps.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="AP_Website" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

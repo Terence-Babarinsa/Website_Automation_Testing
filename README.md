@@ -5,6 +5,9 @@ This project looks to test the fastest route for a customer to purchase an item 
 # Class Diagram
 <img src="ClassDiagram/Capture3.PNG" />
 
+# Tests
+<img src="ClassDiagram/Capture4.PNG" />
+
 ## Project review
 The project was not too challenging in terms of creating the framework. There were alot of challenges in terms of creating POMs in terms of identifying elements on the webpage by id, classname or cssselector an d trying to avoiding using the xpath. The decision on the types of tests I carried out was based on simplicity on operation. Granted it was alot easier due to the lack of dependency of webpages on each other. This meant i didint have to transfer my driver between my POMs. 
 ## Project Retrospective
